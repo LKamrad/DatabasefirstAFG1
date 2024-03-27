@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using System.Collections.Specialized;
 using System.Linq;
 
@@ -48,6 +49,10 @@ namespace DatabasefirstNamespace.Models
 
             }
 
+
+
+
         }
+
     }
 }
